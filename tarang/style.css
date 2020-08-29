@@ -1,0 +1,441 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/****nav bar section****/
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    padding: 15px 0;
+    background: transparent;
+}
+ .custom_logo{
+    background: red;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px 25px;
+    letter-spacing: 1px;
+    line-height: 2;
+    transform: skewX(30deg);
+}
+ .custom_logo span{
+    transform: skewX(-30deg);   
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: red;
+}
+.navbar .nav-scroll{
+    background: #ffffff;
+    box-shadow: 0 1px 8px 3px rgb(0,0,0,0.05);
+    transition: 0.5s ease;
+}
+.nav-scroll .navbar-nav li a{
+    color:black ;
+}
+
+/****end of navbar section****/
+
+/*****hero section***/
+.cover-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+    margin: 0;
+}
+h1,h2,h4{
+    color: #151515;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+}
+p{
+    line-height: 1;
+    color: #777777;
+
+}
+span, a{
+    display: inline-block;
+}
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(TARANG\ LOGO.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+}
+.banner .caption h4{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.banner .caption h2{
+    color: red;
+    font-size: 60px;
+}
+
+.banner .caption h1{
+    color: skyblue;
+    font-size: 80px;
+}
+.banner .caption p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 32px;
+    opacity: 0.7px;
+}
+
+.banner .caption .social_icon a{
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    text-shadow: 1px 1px 2px rgb(0,0,0,0.5);
+    font-size: 25px;
+    background-color: tomato;
+    transition: 0.6s all;
+}
+.banner .caption .social_icon a :hover{
+ color: #1957f3;
+}
+/***end hero section ***/
+
+/***about section***/
+.mb-30{
+    margin-bottom: 30px;
+}
+.pb-35{
+    padding-bottom: 35px;
+}
+.mt-35{
+    margin-top: 35px;
+}
+.section_padding{
+    padding: 100px 0px;
+}
+.section_tittle{
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.section_tittle p{
+    background-color: #1957f3;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 12px;
+    letter-spacing: 1px;
+}
+.section_tittle h3{
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 1.14;
+    letter-spacing: 2px;
+    padding-bottom: 13px;
+}
+
+.btn {
+    background-color: red;
+    border: 2px solid #1957f3;
+    padding: 15px 20px;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.6s ease;
+}
+.btn :hover {
+ box-shadow: inset 12em 0 0 0 #1957f3;
+ color: tomato;   
+}
+.about .part_text h4{
+    font-size: 24px;
+}
+.about .part_text p{
+    border-bottom: 1px solid #f1f1f1;
+}
+.about .part_text .info li{
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+/**** end about section***/
+
+/***volunteer section***/
+.volunteer{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(TARANG.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.volunteer h2{
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 800;
+}
+.mt-30{
+margin-top: 30px;
+}
+/***end volunteer section***/
+
+/***Arts section***/
+
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Arts .Arts_box{
+    border: 1px solid #fafafa;
+    transition: all 0.5s;
+}
+.Arts .Arts_box :hover{
+    box-shadow: -1px 3px 10px rgb(0,0,0.0.06);
+}
+.Arts .box{
+    position: relative;
+    padding: 50px;
+}
+.Arts .Arts_box .icon i{
+    color: #1957f3;
+    font-size: 40px;
+}
+.Arts .box_tittle {
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.Arts .box_tittle ::before{
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-color: rgba(91, 51, 255,0.2);
+}
+.Arts .Arts_box ::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid #f7f7f7;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    
+}
+/***end Arts section***/
+
+/***Quickies section****/
+.quickies {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(quickies.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.quickies .section_tittle h3{
+    color: whitesmoke;
+}
+.quickies .quickies_item{
+    text-align: center;
+    background: linear-gradient(to right, transparent ,rgba(200,200,200,0.1), transparent);
+    padding: 30px;
+    color: whitesmoke;
+}
+.quickies .quickies_item i{
+    color: #1957f3;
+    font-size: 30px;
+}
+.quickies .quickies_item p{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.quickies .quickies_item .quickies_author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quickies .quickies_item .quickies_author .part_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.quickies .quickies_item .quickies_author .part_img img{
+    border-radius: 50%;
+}
+.quickies .quickies_item .quickies_author .text {
+    text-align: left;
+}
+.quickies .quickies_item .quickies_author .text h5{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.quickies .quickies_item .quickies_author .text h6{
+    color: #cccccc;
+    font-size: 14px;
+}
+
+
+/***End Quickies section****/
+/*** Contact section****/
+.contacts{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(logo.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.contacts .section_tittle h3{
+    color: whitesmoke;
+}
+.contacts .part-info{
+    background: linear-gradient(to right, transparent ,rgba(200,200,200,0.1), transparent);
+     padding: 30px;
+     margin-bottom: 50px;
+}
+.contacts .info-block{
+    border-right: 1px solid #ffffff;
+}
+.contacts .part-info .info-block .icon{
+    margin-bottom: 15px;
+}
+.contacts .part-info .info-block .icon i{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 40px;
+}
+.contacts .part-info .info-block h5{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contacts .part-info .info-block p{
+    color: #ffffff;
+    opacity: 0.9;
+}
+.contacts .part-info .col-md-4:last-child .info-block{
+    border-right: 0;
+    
+}
+.contacts .Contact-form{
+    background: linear-gradient(to right, transparent ,rgba(200,200,200,0.1), transparent);
+     padding: 30px;   
+}
+.contacts .Contact-form input,
+.contacts .Contact-form textarea{
+    color: #ffffff;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid rgb(0,0,0.0.28);
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+.contacts .Contact-form input::placeholder,
+.contacts .Contact-form textarea::placeholder{
+    color: #ffffff;
+}
+.contacts .Contact-form input:focus,
+.contacts .Contact-form textarea:focus{
+    border: 1px solid #ffffff;
+    outline: none;
+    box-shadow: none;
+}
+.contacts .Contact-form textarea{
+    height: 120px;
+}
+/***End Contact section****/
+
+/***footer section*****/
+.footer{
+    background: #212121;
+    padding: 80px 0px;
+}
+.footer .logo {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer .logo .custom_logo{
+    background: red;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px 25px;
+    letter-spacing: 1px;
+    line-height: 2;
+    transform: skewX(30deg);
+}
+
+.footer .logo .custom_logo span{
+    transform: skewX(-30deg);   
+}
+.footer .social_icon{
+    margin: 0px auto;
+    width: 100%;
+}
+.footer .social_icon a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #252525;
+    transition: 0.5s ease;
+}
+
+.footer .social_icon a i{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer .social_icon a:hover{
+    background: #1957f3;
+}
+.footer .copy{
+    width: 100%;
+    padding-top: 30px;
+}
+.footer .copy h6{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+/***end footer section*****/
