@@ -10,6 +10,10 @@ html{
 .navbar{
     padding: 15px 0;
     background: transparent;
+    transition: all 0.3s ease;
+}
+.navbar-active{
+    background: #212121;
 }
  .custom_logo{
     background: red;
@@ -26,7 +30,7 @@ html{
 }
 
 .navbar-dark .navbar-nav .nav-link{
-    color: #ffffff;
+    color: #ffffff60;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;

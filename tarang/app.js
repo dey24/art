@@ -7,6 +7,15 @@ $(window).scroll(function(){
     $(".navbar").removeclass("nav-scroll");
   }
 });
+const navbar = document.querySelector('.navbar');
+window.onscroll = () => {
+    if (window.scrollY > 500) {
+        navbar.classList.add('navbar-active');
+    } else {
+        navbar.classList.remove('navbar-active');
+    }
+    console.log('navbar');
+};
 
 $('.quickies_items_main').slick({
   dots: false,
